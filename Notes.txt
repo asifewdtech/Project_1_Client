@@ -1,0 +1,5 @@
+Pending Issue:
+1. Admin > Get Service > Custom Filters
+   Service Provider fileter in not working properly.
+
+2. Uploading a file (Uploading an image) is still on pending.

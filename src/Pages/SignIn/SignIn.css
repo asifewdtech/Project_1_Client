@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.or-social {
+  position: relative;
+}
+.or-social::before {
+  content: "";
+  width: 38%;
+  height: 1px;
+  top: 50%; left: 4%;
+  position: absolute;
+  background-color: lightgray;
+}
+
+.or-social::after {
+  content: "";
+  width: 38%;
+  height: 1px;
+  top: 50%; left: 58%;
+  position: absolute;
+  background-color: lightgray;
+}

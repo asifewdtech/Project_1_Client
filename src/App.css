@@ -1,0 +1,31 @@
+.toast {
+  position: absolute !important;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  width: fit-content !important;
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#table-services-filtered_filter,
+#table-services-approved_filter,
+#table-service-providers_filter,
+#table-users-approved_filter,
+#table-users-pending_filter,
+#table-users-rejected_filter,
+#table-categories_filter,
+#table-service-approved_filter {
+  display: none;
+}
+
+.description-truncate {
+  -webkit-line-clamp: 3;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,31 @@
+/* DASHBOARD RIGHT SIDE PANEL */
+.topbarDashboard {
+  background-color: #e9ecef;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+#avatar {
+  /* display: block; */
+  width: 3rem;
+  height: 3rem;
+  outline: 2px solid lightgray;
+  border: none;
+  /* transition: all .3s; */
+}
+#avatar-btn::after {
+  display: none !important;
+}
+
+#avatar:hover {
+  border: none;
+  outline: 3px solid rgb(156, 156, 156);
+}
+
+#avatar-sample-icon {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}

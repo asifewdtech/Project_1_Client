@@ -1,0 +1,12 @@
+# MODULES
+/node_modules
+
+# OTHERS
+
+# ENVIRONMENT FILES
+.env
+.env.production
+.env.developement
+
+# FILES
+.txt
